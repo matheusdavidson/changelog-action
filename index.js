@@ -108,6 +108,7 @@ async function main () {
 
     latestTag = { name: fromTag };
     previousTag = { name: toTag };
+    tag = fromTag;
   } else {
     return core.setFailed(`Input tag or fromTag and toTag are required.`) 
   }
